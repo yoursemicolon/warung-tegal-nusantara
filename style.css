@@ -1,11 +1,11 @@
-header, section, footer, aside, nav, article, figure, figcaption {
+header, section, footer, aside, article, figure, figcaption {
     display: block;
 }
 
 .wrapper {
-    width: 940px;
+    width: 1000px;
     margin: 20px auto 20px auto;
-    border: 2px solid #000000;
+    border: 0.5px solid #000000;
     background-color: #ffffff;
 }
 
@@ -21,13 +21,30 @@ h1 {
     width: 940px;
     height: 130px;
     margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #ffc2cf;
 }
 
 nav, footer {
     clear: both;
     color: #ffffff;
-    background-color: #aeaca8;
-    height: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    
+    background-color: black;
 }
 
 nav ul {
@@ -52,7 +69,7 @@ nav li a:hover {
 
 body {
     color: ;
-    background-color: #f9f8f6;
+    background-color: #ffc2cf;
     background-image: url();
     background-position: center;
     font-family: "Poppins", sans-serif;
@@ -62,14 +79,14 @@ body {
 
 section.courses {
     float: left;
-    width: 659px;
+    width: 720px;
     border-right: 1px solid #EEEEEE;
 }
 
 article {
     clear: both;
     overflow: auto;
-    width: 100%;
+    width: 95%;
 }
 
 hgroup {
@@ -82,9 +99,55 @@ figure {
     height: 220px;
     padding: 5px;
     margin: 20px;
-    border: 1px solid #EEEEEE;
 }
 
+figcaption {
+    font-size: 90%;
+    text-align: left;
+}
 
+aside {
+    width: 230px;
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
+
+aside section a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+aside section a:hover {
+    color: black;
+    background-color: #EFEFEF;
+}
+
+a {
+    color: crimson;
+    text-decoration: none;
+}
+
+h2 {
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+    font-weight: 600;
+    color: crimson;
+}
+
+h3 {
+    margin: 0px 0px 10px 0px;
+    color: crimson;
+    font-weight: normal;
+}
+
+article img {
+    width: 300px;
+}
+
+p {
+    font-size: 15px;
+    text-align: justify;
+}
 
 
