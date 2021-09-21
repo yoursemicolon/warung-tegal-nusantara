@@ -1,0 +1,90 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+}
+
+header {
+    height: 160px;
+    /* background-image: url(assets/simg/kuliner.jpg); */
+    font-family: "Playfair Display", serif;
+    color: black;
+}
+
+h1 {
+    /* text-indent: -9999px; */
+    width: 940px;
+    height: 130px;
+    margin: 0px;
+}
+
+nav, footer {
+    clear: both;
+    color: #ffffff;
+    background-color: #aeaca8;
+    height: 30px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 40px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover {
+    color: crimson;
+    transition: 0.5s;
+}
+
+body {
+    color: ;
+    background-color: #f9f8f6;
+    background-image: url();
+    background-position: center;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.4em;
+    margin: 0px;
+}
+
+section.courses {
+    float: left;
+    width: 659px;
+    border-right: 1px solid #EEEEEE;
+}
+
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+
+hgroup {
+    margin-top: 40px;
+}
+
+figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #EEEEEE;
+}
+
+
+
+
